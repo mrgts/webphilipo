@@ -1,0 +1,1060 @@
+.custom-button {
+    cursor: pointer;
+}
+
+/*
+ ***** Facebook Button *****
+*/
+.facebook-button .custom-button-left {
+    background-image: url("/resources/buttons/facebook-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0px -40px;
+    height: 39px;
+    width: 33px;
+}
+.facebook-button .custom-button-right {
+    background-image: url("/resources/buttons/facebook-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: -23px -280px;
+    height: 39px;
+    width: 10px;
+}
+.facebook-button .custom-button-center {
+    background-image: url("/resources/buttons/facebook-button-sprite.png");
+    background-repeat: repeat-x;
+    background-position: 0px -160px;
+    height: 39px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    min-width: 80px;
+}
+.facebook-button .custom-button-center .small-font {
+    font-weight: normal;
+    font-size: 12px;
+}
+.facebook-button:hover .custom-button-left {
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+.facebook-button:hover .custom-button-right {
+    background-position: -23px -240px;
+    cursor: pointer;
+}
+.facebook-button:hover .custom-button-center {
+    background-position: 0px -120px;
+    cursor: pointer;
+}
+.facebook-button-disabled .custom-button-left, .facebook-button-disabled:hover .custom-button-left {
+    background-position: 0px -80px;
+    cursor: default;
+}
+.facebook-button-disabled .custom-button-right, .facebook-button-disabled:hover .custom-button-right {
+    background-position: -23px -320px;
+    cursor: default;
+}
+.facebook-button-disabled .custom-button-center, .facebook-button-disabled:hover .custom-button-center {
+    background-position: 0px -200px;
+    cursor: default;
+    color: #808080;
+}
+
+/*
+ ***** Walmart Button *****
+*/
+.walmart-button .custom-button-left {
+    background-image: url("/resources/buttons/walmart-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0px -40px;
+    height: 39px;
+    width: 33px;
+}
+.walmart-button .custom-button-right {
+    background-image: url("/resources/buttons/walmart-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: -23px -280px;
+    height: 39px;
+    width: 10px;
+}
+.walmart-button .custom-button-center {
+    background-image: url("/resources/buttons/walmart-button-sprite.png");
+    background-repeat: repeat-x;
+    background-position: 0px -160px;
+    height: 39px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #007DC6;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    min-width: 80px;
+}
+.walmart-button .custom-button-center .small-font {
+    font-weight: normal;
+    font-size: 12px;
+}
+.walmart-button:hover .custom-button-left {
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+.walmart-button:hover .custom-button-right {
+    background-position: -23px -240px;
+    cursor: pointer;
+}
+
+.walmart-button:hover .custom-button-center {
+    background-position: 0px -120px;
+    cursor: pointer;
+}
+.walmart-button-disabled .custom-button-left, .facebook-button-disabled:hover .custom-button-left {
+    background-position: 0px -80px;
+    cursor: default;
+}
+.walmart-button-disabled .custom-button-right, .facebook-button-disabled:hover .custom-button-right {
+    background-position: -23px -320px;
+    cursor: default;
+}
+.walmart-button-disabled .custom-button-center, .facebook-button-disabled:hover .custom-button-center {
+    background-position: 0px -200px;
+    cursor: default;
+    color: #808080;
+}
+
+/*
+ ***** Gray Button *****
+*/
+.gray-button .custom-button-left {
+    background-image: url("/resources/buttons/gray-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0px -40px;
+    height: 37px;
+    width: 8px;
+}
+
+.gray-button .custom-button-right {
+    background-image: url("/resources/buttons/gray-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0px -280px;
+    height: 37px;
+    width: 8px;
+}
+
+.gray-button .custom-button-center {
+    background-image: url("/resources/buttons/gray-button-sprite.png");
+    background-repeat: repeat-x;
+    background-position: 0px -160px;
+    height: 37px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.gray-button:hover .custom-button-left {
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+
+.gray-button:hover .custom-button-right {
+    background-position: 0px -240px;
+    cursor: pointer;
+}
+
+.gray-button:hover .custom-button-center {
+    background-position: 0px -120px;
+    cursor: pointer;
+}
+
+.gray-button-disabled .custom-button-left, .gray-button-disabled:hover .custom-button-left {
+    background-position: 0px -80px;
+    cursor: default;
+}
+
+.gray-button-disabled .custom-button-right, .gray-button-disabled:hover .custom-button-right {
+    background-position: 0px -320px;
+    cursor: default;
+}
+
+.gray-button-disabled .custom-button-center, .gray-button-disabled:hover .custom-button-center {
+    background-position: 0px -200px;
+    cursor: default;
+    color: #808080;
+}
+
+/*
+ ***** Green Button *****
+*/
+.green-button .custom-button-left {
+    background-image: url("/resources/buttons/green-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0px -40px;
+    height: 37px;
+    width: 8px;
+}
+
+.green-button .custom-button-right {
+    background-image: url("/resources/buttons/green-button-sprite.png");
+    background-repeat: no-repeat;
+    background-position: 0px -280px;
+    height: 37px;
+    width: 8px;
+}
+
+.green-button .custom-button-center {
+    background-image: url("/resources/buttons/green-button-sprite.png");
+    background-repeat: repeat-x;
+    background-position: 0px -160px;
+    height: 37px;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    min-width: 80px;
+}
+
+.green-button:hover .custom-button-left {
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+
+.green-button:hover .custom-button-right {
+    background-position: 0px -240px;
+    cursor: pointer;
+}
+
+.green-button:hover .custom-button-center {
+    background-position: 0px -120px;
+    cursor: pointer;
+}
+
+.green-button-disabled .custom-button-left, .green-button-disabled:hover .custom-button-left {
+    background-position: 0px -80px;
+    cursor: default;
+}
+
+.green-button-disabled .custom-button-right, .green-button-disabled:hover .custom-button-right {
+    background-position: 0px -320px;
+    cursor: default;
+}
+
+.green-button-disabled .custom-button-center, .green-button-disabled:hover .custom-button-center {
+    background-position: 0px -200px;
+    cursor: default;
+    color: #808080;
+}
+
+/****** Big Green Button ******/
+.big-green-button .custom-button-left {
+    background-image: url("/resources/buttons/big-green-button-W.png");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 34px;
+}
+
+.big-green-button .custom-button-right {
+    background-image: url("/resources/buttons/big-green-button-E.png");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 34px;
+}
+
+.big-green-button .custom-button-center {
+    background-image: url("/resources/buttons/big-green-button-C.png");
+    background-repeat: repeat-x;
+    height: 34px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0 10px 0 10px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.big-green-button:hover .custom-button-center {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+/****** Extra Big Green Button ******/
+.extra-big-green-button .custom-button-left {
+    background-image: url("/resources/buttons/extra-big-green-button-W.png");
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 80px;
+}
+
+.extra-big-green-button .custom-button-right {
+    background-image: url("/resources/buttons/extra-big-green-button-E.png");
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 80px;
+}
+
+.extra-big-green-button .custom-button-center {
+    background-image: url("/resources/buttons/extra-big-green-button-C.png");
+    background-repeat: repeat-x;
+    height: 80px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 0 10px 0 10px;
+    min-width: 80px;
+    text-align: center;
+}
+
+.extra-big-green-button:hover .custom-button-center {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/***** PayPal Button *****/
+.paypal-button {
+    border: none;
+    background-image: url("/resources/paypal/paypal_button.png");
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 69px;
+    background-color: transparent;
+}
+.paypal-button:hover {
+    cursor: pointer;
+}
+
+/****** List box with label ******/
+.covie-list-box-with-label {
+    width: 67px;
+    height: 33px;
+    padding: 4px 3px;
+    border: 0 none;
+    background-color: #DDDEDE;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+}
+
+/****** Text box with label ******/
+.covie-text-box-with-label {
+    width: 215px;
+    margin: 5px 0;
+    position: relative;
+    background-color: #DDDEDE;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
+.covie-text-box-with-label .gwt-Label {
+    position: absolute;
+    bottom: 9px;
+    left: 5px;
+    color : #999999;
+}
+.covie-text-box-with-label .text-box {
+    background-color: transparent;
+    height: 29px;
+    width: 96%;
+    padding: 2px 2%;
+    border: 0;
+    line-height: 20px;
+    outline: none;
+}
+.covie-text-box-with-label-error {
+    border: 1pt #DD0000 solid;
+}
+/* Flow Popup*/
+.flow-popup {
+    position: fixed !important;
+    z-index: 999;
+    background-image: url("/resources/backplates/gray_textured_panel_small.png");
+    background-repeat: no-repeat;
+    width: 390px;
+    height: 240px;
+    padding: 30px 30px 44px 41px;
+    font-family: Arial, Verdana, sans-serif;
+}
+.flow-popup .content {
+    max-height: 170px;
+    overflow: visible;
+}
+.flow-popup .primary-text {
+    font-size: 18px;
+    color: #dfdfdf;
+}
+.flow-popup .secondary-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.flow-popup .gwt-Image {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    bottom: 140px;
+    left: 50%;
+    margin: -16px;
+}
+.flow-popup .button-panel {
+    width: 390px;
+    position: absolute;
+    bottom: 50px;
+}
+.flow-popup .button-panel .ticker {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+}
+.flow-popup .button-panel .green-button {
+    outline: none;
+}
+
+.primary-text .skip-billing-warning-msg-2{
+    padding-top: 20px;
+}
+
+/* Closeable Popup */
+.closeable-popup {
+    z-index: 999;
+    position: fixed !important;
+}
+.closeable-popup .closeable-popup-close-button {
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 7px;
+    top: 8px;
+    background-image: url("/resources/buttons/X_Close_Window_Button_Normal.png");
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 0 none;
+}
+.closeable-popup .closeable-popup-close-button:HOVER {
+    background-image: url("/resources/buttons/X_Close_Window_Button_OVER.png");
+    cursor: pointer;
+}
+.closeable-popup .black-panel-close-button {
+    background-image: url("/resources/buttons/X_Close_Window_Button_Normal.png");
+    width: 18px;
+    height: 18px;
+}
+.closeable-popup .black-panel-close-button:HOVER {
+    background-image: url("/resources/buttons/X_Close_Window_Button_OVER.png");
+}
+.closeable-popup .gray-textured-panel-close-button {
+    background-image: url("/resources/buttons/grey-popup-X_Close_Window_Button_Normal.png");
+    width: 25px;
+    height: 26px;
+    top: 5px;
+}
+.closeable-popup .gray-textured-panel-close-button:HOVER {
+    background-image: url("/resources/buttons/grey-popup-X_Close_Window_Button_Over.png");
+}
+
+/* Popup Panel Glass */
+.gwt-PopupPanelGlass {
+    position: fixed !important;
+    background-color: #000000;
+    z-index: 998;
+    opacity: 0.75;
+    filter: alpha(opacity = 75);
+}
+
+/* Black Panel */
+.black-panel .topLeft {
+    background-image: url("/resources/decorator/pop-up-black-NW.png");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 5px;
+}
+.black-panel .topCenter {
+    background-image: url("/resources/decorator/pop-up-black-N.png");
+    background-repeat: repeat-x;
+    height: 5px;
+}
+.black-panel .topRight {
+    background-image: url("/resources/decorator/pop-up-black-NE.png");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 5px;
+}
+.black-panel .middleLeft {
+    background-image: url("/resources/decorator/pop-up-black-W.png");
+    background-repeat: repeat-y;
+    width: 5px;
+    vertical-align: bottom;
+}
+.black-panel .middleCenter {
+    background-image: none;
+    background-color: #000;
+}
+.black-panel .middleRight {
+    background-image: url("/resources/decorator/pop-up-black-E.png");
+    background-repeat: repeat-y;
+    width: 5px;
+    vertical-align: bottom;
+}
+.black-panel .middleLeftInner {
+    background-image: none;
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 124px;
+}
+.black-panel .middleRightInner {
+    background-image: none;
+    width: 5px;
+}
+.black-panel .bottomCenter {
+    background-image: url("/resources/decorator/pop-up-black-S.png");
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 5px;
+}
+.black-panel .bottomLeft {
+    background-image: url("/resources/decorator/pop-up-black-SW.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 5px;
+    height: 5px;
+}
+.black-panel .bottomRight {
+    background-image: url("/resources/decorator/pop-up-black-SE.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 5px;
+    height: 5px;
+}
+.black-panel .gwt-Label {
+    font-size: 15px;
+    color: #D2D2D2;
+    font-family: Arial;
+}
+.black-panel .msg-label {
+    height: 25px;
+    overflow: hidden;
+    color: #65B001;
+    margin-left: 5px;
+}
+.black-panel .error-label {
+    height: 25px;
+    overflow: hidden;
+    color: #CC3333;
+    margin-left: 5px;
+}
+
+/* Gray Textured Panel */
+.gray-textured-panel .middleCenterInner {
+    width:  600px;
+    height: 325px;
+    padding: 0 0 15px 12px;
+    background-image: url("/resources/backplates/gray_textured_panel.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    position: relative;
+}
+.gray-textured-panel .covie-error-label {
+    height: 15px;
+    margin-left: 4px;
+    color: rgb(201, 23, 23);
+}
+.gray-textured-panel .message-body .title {
+    font-size: 20px;
+    margin: 30px auto;
+}
+.gray-textured-panel .message-body .subtitle {
+    font-size: 16px;
+}
+.gray-textured-panel .message-body .message {
+    font-size: 14px;
+    margin: 10px 0;
+}
+.gray-textured-panel .message-body .buttons-panel {
+    margin: 40px auto;
+}
+.gray-textured-panel .message-body {
+    padding: 10px 50px;
+    color: #CCC;
+    font-family: Arial;
+    width: 100%;
+}
+.gray-textured-panel .message-body .small-green-button-new {
+    margin: 0 20px;
+}
+
+/* Gray Textured Panel with header*/
+.gray-textured-panel-with-header .middleCenterInner {
+    height: 405px;
+    background-image: url("/resources/backplates/gray_textured_panel_with_header.png");
+}
+.gray-textured-panel-with-header .custom-flow-header {
+    height: 80px;
+    overflow: hidden;
+}
+.gray-textured-panel-with-header .custom-flow-header .flow-header {
+    padding: 11px 38px;
+}
+.gray-textured-panel-with-header .custom-flow-header .flow-header .movie-poster {
+    float: left;
+    margin-right: 20px;
+    border: 1px solid #808080;
+    width: 39px;
+    height: 56px;
+}
+.gray-textured-panel-with-header .custom-flow-header .flow-header .covie-logo {
+    float: left;
+    margin: 0 25px 0 0;
+    background-image: url("/resources/mobile/logos/vudu_logo_white_v2_89x23.png");
+    width: 89px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.gray-textured-panel-with-header .custom-flow-header .flow-header .heading {
+    font-size: 18px;
+    color: #d9d7d7;
+    max-height: 47px;
+    overflow: hidden;
+}
+.gray-textured-panel-with-header .custom-flow-header .flow-header .sub-heading {
+    font-size: 14px;
+    color: #d9d7d7;
+    overflow: hidden;
+}
+
+/**** Sign Up *****/
+.sign-up-panel .default-banner {
+    background-image: url("/resources/banners/your_hd_movies_everywhere_bannner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 250px;
+    height: 285px;
+    margin: 20px;
+}
+.sign-up-panel .covie-10-free-banner {
+    background-image: url("/resources/banners/get_10_free_movies_banner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 250px;
+    height: 285px;
+    margin: 20px;
+}
+.sign-up-panel .covie-hdx-starter-pack-banner {
+    background-image: url("/resources/banners/hdx_starter_pack_banner_sign_up_v1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 250px;
+    height: 285px;
+    margin: 20px;
+}
+.sign-up-panel .covie-uvshare {
+    background-image: url("/resources/banners/uv_sharing_banner_signup.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 250px;
+    height: 285px;
+    margin: 20px;
+}
+.sign-up-panel .covie-instawatch-banner {
+    background-image: url("/resources/banners/your_hd_movies_everywhere_bannner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 250px;
+    height: 285px;
+    margin: 20px;
+}
+.sign-up-panel .splitter {
+    background-image: url("/resources/misc/gray_popup_divider.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 270px;
+    margin: 30px 0;
+}
+.sign-up-panel .right-panel {
+    width: 250px;
+    height: 184px;
+    margin: 100px 20px 30px;
+    position: relative;
+}
+.sign-up-panel .right-panel .custom-button {
+   margin: 20px auto;
+   width: 235px;
+}
+.sign-up-panel .right-panel .sign-in-panel {
+   position: absolute;
+   bottom: 0px;
+   left: 0px;
+}
+.sign-up-panel .right-panel .sign-in-panel .sign-in-label, 
+.sign-up-panel .right-panel .sign-in-panel a {
+   display: inline;
+   margin-right: 5px;
+}
+
+/**** Sign In *****/
+.sign-in-panel .sign-in-container {
+    width: 90%;
+    margin: 0 5%;
+}
+.sign-in-panel .sign-in-container .header {
+    font-size: 18px;
+    color: #D2D2D2;
+}
+.sign-in-panel .sign-in-container .covie-sign-in-panel {
+    position: relative;
+    height: 264px;
+    min-width: 250px;
+    margin: 30px 0;
+}
+.sign-in-panel .sign-in-container .covie-sign-in-panel .covie-error-label {
+    height: 30px;
+    margin: 5px 0;
+    width: 215px;
+}
+.sign-in-panel .sign-in-container .covie-sign-in-panel .forgot-password-label {
+    display: inline;
+}
+.sign-in-panel .sign-in-container .covie-sign-in-panel .custom-button {
+    margin: 10px 10px 0 0;
+    outline: none;
+    display: inline-block;
+}
+.sign-in-panel .sign-in-container .covie-sign-in-panel .sign-up-link {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.sign-in-panel .sign-in-container .splitter {
+    background-image: url("/resources/misc/gray_popup_divider_with_or.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50px;
+    height: 325px;
+}
+.sign-in-panel .sign-in-container .alternate-sign-in-options-panel {
+    position: relative;
+    height: 104px;
+    width: 250px;
+    margin: 110px 0;
+}
+.sign-in-panel .sign-in-container .alternate-sign-in-options-panel .custom-button {
+    margin: 25px auto;
+    min-width: 245px;
+}
+
+/**** OAuth Sign In *****/
+.sign-in-panel .sign-in-container .oauth-sign-in-panel {
+    position: relative;
+    height: 264px;
+    min-width: 250px;
+    margin: 30px 0;
+    background-image: url("/resources/logos/walmart-logo-white.png");
+    background-position: right 60px;
+    background-repeat: no-repeat;
+}
+.sign-in-panel .sign-in-container .oauth-sign-in-panel .covie-error-label {
+    height: 30px;
+    margin: 5px 0;
+    width: 215px;
+}
+.sign-in-panel .sign-in-container .oauth-sign-in-panel .forgot-password-panel .forgot-password-label {
+    display: inline;
+}
+.sign-in-panel .sign-in-container .oauth-sign-in-panel .custom-button {
+    margin: 10px 10px 0 0;
+    outline: none;
+    display: inline-block;
+}
+.sign-in-panel .sign-in-container .oauth-sign-in-panel .sign-up-link {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.sign-in-panel .sign-in-container .oauth-sign-in-panel .sign-in-link {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+/**** ingreso contraseña ****/
+.forgot-covie-password-panel {
+    padding: 30px;
+}
+.forgot-covie-password-panel .header {
+    font-size: 18px;
+    color: #D2D2D2;
+}
+.forgot-covie-password-panel .sub-header {
+    font-size: 13px;
+    color: #D2D2D2;
+}
+.forgot-covie-password-panel .covie-error-label {
+    height: 20px;
+    margin-top: 10px;
+}
+.forgot-covie-password-panel .buttons-panel {
+    position: absolute;
+    bottom: 50px;
+    height: 40px;
+}
+.forgot-covie-password-panel .buttons-panel .custom-button {
+    float: left;
+    margin-right: 10px;
+}
+
+/**** autenticacion ****/
+.covie-auth-container {
+    padding: 30px;
+}
+.covie-auth-container .covie-auth-panel .header {
+    font-size: 18px;
+    color: #D2D2D2;
+}
+.covie-auth-container .covie-auth-panel .sub-header {
+    font-size: 13px;
+    color: #D2D2D2;
+}
+.covie-auth-container .covie-auth-panel .covie-error-label {
+    height: 30px;
+    width: 250px;
+}
+.covie-auth-container .covie-auth-panel .forgot-password > .gwt-Label {
+    display: inline;
+}
+.covie-auth-container .covie-auth-panel .custom-button {
+    display: inline-block;
+    margin: 20px 10px 0 0;
+}
+.covie-auth-container .covie-auth-panel .walmart-sign-in {
+    display: block;
+    margin: 20px 0;
+}
+.covie-auth-container .covie-auth-panel .sign-up {
+    display: block;
+    margin: 20px 0;
+}
+.covie-auth-container .splitter {
+    background-image: url("/resources/misc/gray_popup_divider.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 270px;
+}
+.covie-auth-container .create-account-panel {
+    min-width: 230px;
+    text-align: center;
+}
+.covie-auth-container .create-account-panel .default-banner {
+    background-image: url("/resources/banners/your_hd_movies_everywhere_bannner.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 245px;
+    height: 240px;
+}
+.covie-auth-container .create-account-panel .covie-hdx-starter-pack-banner {
+    background-image: url("/resources/banners/hdx_starter_pack_banner_sign_up_v1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 245px;
+    height: 240px;
+}
+.covie-auth-container .create-account-panel .header {
+    font-size: 18px;
+    color: #D2D2D2;
+}
+.covie-auth-container .create-account-panel .custom-button {
+    margin: 80px auto;
+}
+
+/*
+ ***** Account Suspended *****
+*/
+.account-suspended-panel {
+    padding: 40px 0 0 46px;
+}
+.account-suspended-panel .header {
+    font-size: 18px;
+    color: #D2D2D2;
+}
+.account-suspended-panel .sub-header {
+    font-size: 13px;
+    color: #D2D2D2;
+}
+.account-suspended-panel .buttons-panel {
+    position: absolute;
+    bottom: 40px;
+}
+
+/**** Password Expired ****/
+.password-expired-panel {
+    padding: 40px 0 0 46px;
+}
+.password-expired-panel .header {
+    font-size: 18px;
+    color: #D2D2D2;
+}
+.password-expired-panel .sub-header {
+    font-size: 13px;
+    color: #D2D2D2;
+}
+.password-expired-panel .buttons-panel {
+    position: absolute;
+    bottom: 50px;
+    height: 40px;
+}
+.password-expired-panel .buttons-panel .custom-button {
+    float: left;
+    margin-right: 10px;
+}
+
+/****** Big Black Button ******/
+
+.big-black-button .custom-button-left {
+    background-image: url("/resources/buttons/big-black-button-W.png");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 40px;
+}
+
+.big-black-button .custom-button-right {
+    background-image: url("/resources/buttons/big-black-button-E.png");
+    background-repeat: no-repeat;
+    width: 5px;
+    height: 40px;
+}
+
+.big-black-button .custom-button-center {
+    background-image: url("/resources/buttons/big-black-button-C.png");
+    background-repeat: repeat-x;
+    height: 40px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: #D2D2D2;
+    padding: 0 10px 0 10px;
+}
+
+.big-black-button:hover .custom-button-center {
+    color: #F3EB04;
+    cursor: pointer;
+}
+
+.big-black-button-disabled:hover .custom-button-center {
+    color: #D2D2D2;
+    cursor: default;
+}
+
+.big-black-button-disabled .custom-button-left {
+    background-image: url("/resources/buttons/big-black-button-disabled-W.png");
+}
+
+.big-black-button-disabled .custom-button-right {
+    background-image: url("/resources/buttons/big-black-button-disabled-E.png");
+}
+
+.big-black-button-disabled .custom-button-center {
+    background-image: url("/resources/buttons/big-black-button-disabled-C.png");
+    cursor: default;
+}
+
+/*
+ ***** Black Button *****
+*/
+.black-button .custom-button-left {
+    background-image: url("/resources/buttons/black-button-W.png");
+    background-repeat: no-repeat;
+    width: 3px;
+    height: 24px;
+}
+
+.black-button .custom-button-right {
+    background-image: url("/resources/buttons/black-button-E.png");
+    background-repeat: no-repeat;
+    width: 3px;
+    height: 24px;
+}
+
+.black-button .custom-button-center {
+    background-image: url("/resources/buttons/black-button-C.png");
+    background-repeat: repeat-x;
+    height: 24px;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #D2D2D2;
+    padding: 0 10px 0 10px;
+}
+
+.black-button:hover .custom-button-center {
+    color: #F3EB04;
+    cursor: pointer;
+}
+.black-button-disabled:HOVER .custom-button-center {
+  color: #808080;
+    cursor: default;
+}
+.black-button-disabled:FOCUS {
+    outline: none;
+}
+
+.black-button-disabled .custom-button-left {
+    background-image: url("/resources/buttons/black-button-disabled-W.png");
+}
+
+.black-button-disabled .custom-button-right {
+    background-image: url("/resources/buttons/black-button-disabled-E.png");
+}
+
+.black-button-disabled .custom-button-center {
+    background-image: url("/resources/buttons/black-button-disabled-C.png");
+    color: #808080;
+}
+
+/* tooltip */
+.tooltip {
+    margin: 0 3px;
+    padding: 5px;
+    border: 1px #8EAACE solid;
+    background-color: #E9F2FF;
+    color: #4D4D4D;
+    max-width: 250px;
+}
+
+/**** Titulo ****/
+.covie-titlebar {
+    width: 100%;
+}
+.covie-titlebarRight {
+    background-image: url(/resources/widgets/titlebar/titlebar_E.png);
+    height: 40px;
+    width: 5px;
+}
+.covie-titlebarCenter {
+    background-image: url(/resources/widgets/titlebar/titlebar_C.png);
+    background-repeat: repeat-x;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Verdana, Helvetica, Franklin Gothic, san-serif;
+    color: #FFFFFF;
+    padding: 10px 10px 0;
+}
+.covie-titlebarLeft {
+    background-image: url(/resources/widgets/titlebar/titlebar_W.png);
+    height: 40px;
+    width: 5px;
+}

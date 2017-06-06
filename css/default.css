@@ -1,0 +1,782 @@
+/* Common Styles */
+
+html {
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/background/home-page-background.jpg);
+    background-position: 0 48px;
+    background-repeat: repeat-x;
+    background-color: #000000;
+    min-width: 1024px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #999999;
+}
+a, a:VISITED, a:HOVER {
+    color: #9D047C;
+}
+a {
+    text-decoration: none;
+}
+a:ACTIVE {
+    background: none;
+}
+img, a img {
+    border: medium none;
+}
+a:HOVER {
+    text-decoration: underline;
+}
+.centered {
+    margin: 0 auto;
+}
+.vudu-header {
+    width:100%;
+    min-width: 1020px;
+    background-image:url(../images/repeating/header-background.png);
+    background-repeat:repeat-x;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:995;
+}
+.vudu-header > .centered {
+    position: relative;
+    width: 980px;
+    height: 48px;
+}
+#vudu-js-warning {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 22px;
+}
+.vudu-body {
+    margin-top:60px;
+    min-height: 350px;
+}
+
+/* Dropdown Menu styling */
+ul.vudu-nav {
+    float: left;
+    font: 18px Arial;
+    width:980px;
+}
+ul.vudu-nav, ul.vudu-nav li, ul.vudu-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.vudu-nav > li {
+    position: relative;
+    z-index: 99;
+    float: left;
+}
+.vudu-nav li a {
+    white-space: nowrap;
+    display: block;
+    text-indent: -99999px;
+}
+.vudu-nav li a:focus {
+    outline: none;
+}
+.vudu-nav div > a {
+    height: 48px;
+    background-image: url(../images/sprite/main-sprite-v27.png);
+    background-repeat: no-repeat;
+}
+#topNavLogo div > a {
+    width: 105px;
+    background-image: url(../images/sprite/main-sprite-v27.png);
+    background-position: 0 -10px;
+}
+#topNavServices div > a {
+    width: 65px;
+    background-position: -656px 0;
+    cursor: default;
+}
+#topNavWatchMovies div > a {
+    width: 95px;
+    background-position: -164px 0;
+}
+#topNavDeals div > a {
+    width: 44px;
+    background-position: -327px 0;
+}
+#topNavKids div > a {
+    width: 80px;
+    background-position: -490px 0;
+}
+#topNavAvod div > a {
+    width: 105px;
+    background-position: -819px 0;
+}
+#topNavMyAccount div > a {
+    width: 90px;
+    background-position: -820px 0;
+}
+#topNavSingInSignUp div > a {
+    width: 110px;
+    background-position: -984px 0;
+}
+#topNavMyAccount {
+    display: none;
+}
+#topNavSingInSignUp {
+    display: block;
+}
+.logedIn #topNavMyAccount {
+    display: block;
+}
+.logedIn #topNavSingInSignUp {
+    display: none;
+}
+.vudu-nav > li > div, .vudu-nav {
+    float: left;
+    height: 48px;
+}
+.vudu-nav > li > div.left, ul.vudu-nav > li > div.right, .vudu-nav .logo-right {
+    width: 15px;
+}
+.vudu-nav li.selected div.left {
+    background-image:url(../images/sprite/main-sprite-v27.png);
+    background-repeat:no-repeat;
+    background-position: -984px -262px;
+}
+.vudu-nav li.selected div.center {
+    background-image:url(../images/repeating/top-menu-active-center.png);
+    background-repeat: repeat-x;
+    background-position: 0 8px;
+}
+.vudu-nav li.selected div.right {
+    background-image:url(../images/sprite/main-sprite-v27.png);
+    background-repeat:no-repeat;
+    background-position: -1148px -262px;
+}
+.vudu-nav li:HOVER div.left {
+    background-image:url(../images/sprite/main-sprite-v27.png);
+    background-repeat:no-repeat;
+    background-position: -656px -262px;
+}
+.vudu-nav li:HOVER div.center {
+    background-image:url(../images/repeating/top-menu-hover-center.png);
+    background-repeat: repeat-x;
+    background-position: 0 8px;
+}
+.vudu-nav li:HOVER div.right {
+    background-image:url(../images/sprite/main-sprite-v27.png);
+    background-repeat:no-repeat;
+    background-position: -821px -262px;
+}
+.vudu-nav li .subMenu {
+    display: none;
+    position: absolute;
+    left: -5px;
+    top: 48px;
+}
+.vudu-nav #topNavAccount .subMenu {
+    left: -84px;
+}
+.vudu-nav li:HOVER .subMenu {
+    display: block;
+}
+.vudu-nav .subMenu .top {
+    position: relative;
+    overflow: hidden;
+    width: 220px;
+    background-image: url(../images/repeating/sub-menu-shadow-center-220.png);
+    background-repeat:repeat-y;
+    background-position: 0 0;
+}
+.vudu-nav .subMenu .top ul {
+    position: relative;
+    left: 11px;
+    top: 0;
+    z-index: 3;
+    background-color: #353535;
+    background-image: url(../images/repeating/sub-menu-background.png);
+    background-repeat:repeat-x;
+    width: 200px;
+}
+.vudu-nav .subMenu .bottom {
+    width: 220px;
+    height: 18px;
+    background-image: url(../images/sprite/main-sprite-v27.png);
+    background-repeat: no-repeat;
+    background-position: -20px -318px;
+}
+ul.vudu-nav ul li {
+    height: 34px;
+    width: 200px;
+    background-image: url(../images/repeating/sub-menu-dividers.png);
+    background-repeat: repeat-x;
+    background-position: 0 32px;
+}
+ul.vudu-nav ul li:last-child {
+    background-image: none;
+}
+ul.vudu-nav li > a {
+    height: 32px;
+    width: 163px;
+    margin: 0 0 0 19px;
+    background-image: url(../images/sprite/main-sprite-v27.png);
+    background-repeat: no-repeat;
+}
+
+#topNavRedeemCredits > a {
+    background-position: -328px -100px;
+}
+#topNavAccountInformation > a {
+    background-position: 0 -164px;
+}
+#topNavPaymentInformation > a {
+    background-position: -326px -164px;
+}
+#topNavUltravioletInformation > a {
+    background-position: -163px -164px;
+}
+#topNavBalanceHistory > a {
+    background-position: -491px -164px;
+}
+#topNavManageDevices > a {
+    background-position: -655px -164px;
+}
+#topNavSupport > a {
+    background-position: -819px -164px;
+}
+#topNavLogOut > a {
+    background-position: -983px -164px;
+}
+#topNavRedeemUV > a {
+    background-position: -164px -100px;
+}
+#topNavDMA > a {
+    background-position: -819px -229px;
+}
+#topNavShareUV > a {
+    background-position: -493px -100px;
+}
+#topNavInstaWatch > a {
+    background-position: -492px -229px;
+}
+#topNavForums > a {
+    background-position: -655px -229px;
+}
+#topNavConvertDVD > a {
+    background-position: 0px -100px;
+}
+#topNavRedeemCredits > a:HOVER {
+    background-position: -328px -68px;
+}
+#topNavAccountInformation > a:HOVER {
+    background-position: 0 -132px;
+}
+#topNavPaymentInformation > a:HOVER {
+    background-position: -326px -132px;
+}
+#topNavUltravioletInformation > a:HOVER {
+    background-position: -163px -132px;
+}
+#topNavBalanceHistory > a:HOVER {
+    background-position: -491px -132px;
+}
+#topNavManageDevices > a:HOVER {
+    background-position: -655px -132px;
+}
+#topNavSupport > a:HOVER {
+    background-position: -819px -132px;
+}
+#topNavLogOut > a:HOVER {
+    background-position: -983px -132px;
+}
+#topNavRedeemUV > a:HOVER {
+    background-position: -164px -68px;
+}
+#topNavDMA > a:HOVER {
+    background-position: -819px -197px;
+}
+#topNavShareUV > a:HOVER {
+    background-position: -493px -68px;
+}
+#topNavInstaWatch > a:HOVER {
+    background-position: -492px -197px;
+}
+#topNavForums > a:HOVER {
+    background-position: -655px -197px;
+}
+#topNavConvertDVD > a:HOVER {
+    background-position: 0px -68px;
+}
+
+#topNavSingUp > div {
+    background-color: #77A505;
+    border-radius: 5px;
+    height: 26px;
+    margin-top: 12px;
+    box-shadow:inset 1px 1px 0 0 #AED125;
+}
+
+#topNavSingUp div > a {
+    background-position: -817px -60px;
+    height: 35px;
+    margin-top: -25px;
+    position: relative;
+    top: 50%;
+    width: 60px;
+    margin-left:4px;
+}
+
+.vudu-nav-username {
+    float: left;
+    width: 270px;
+    margin: 17px 0 0 2px;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 12px;
+}
+#searchWrapper{
+    width:200px;
+    height: 45px;
+}
+#topNavSearch {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 0; /* this is required else we will see space between the inline-block elements (children) */
+}
+#topNavSearch .left {
+    display: inline-block;
+    width: 21px;
+    height: 48px;
+    background-image:url(../images/sprite/main-sprite-v27.png);
+    background-repeat :no-repeat;
+    background-position: -358px -270px;
+}
+#topNavSearch .right {
+    display: inline-block;
+    width: 12px;
+    height: 48px;
+    background-image:url(../images/sprite/main-sprite-v27.png);
+    background-repeat:no-repeat;
+    background-position: -492px -270px;
+}
+#topNavSearch input {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    height: 21px;
+    min-width: 30px;
+    width: 150px;
+    padding: 2px;
+    margin: 13px 0 0;
+    border: medium none;
+    background-image: url(../images/repeating/search-background-inactive-center-v8.png);
+    background-repeat: repeat-x;
+    background-color: transparent;
+    background-position: 0 0;
+    outline: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    line-height: 21px;
+}
+#topNavSearch.active .left {
+    background-position: 0 -160px;
+}
+#topNavSearch.active .right {
+    background-position: -164px -270px;
+}
+#topNavSearch.active input {
+    background-image: url(../images/repeating/search-background-active-center.png);
+}
+.vudu-header .cleaner {
+    clear: both;
+    height: 10px;
+    width: 100%;
+}
+
+/*New footer's style*/
+
+.footer-wrapper {
+    background-color: #1A1D1E;
+    height: 265px;
+    padding-top: 25px;
+    float:left;
+    width:100%;
+    
+}
+.vudu-page-footer {
+    width:1000px;
+}
+
+.spliter {
+    width: 100%;
+    min-width: 1020px;
+    clear: both;
+    border-bottom: 2px solid #9D047C;
+    height: 10px;
+}
+
+.old-footer {
+    float: left;
+    width: 630px;
+    padding: 30px;
+}
+
+.old-footer a, .old-footer a:VISITED, .old-footer a:HOVER{
+    color: #9D047C;
+}
+
+.footer-sitemap {
+    padding:20px 25px;
+    line-height: 16px;
+    float: left;
+    width: 650px;
+    border-collapse:separate;
+    border-spacing: 0;
+}
+
+.footer-sitemap th {
+    text-align:left;
+    padding: 0 0 5px 0;
+}
+
+.footer-sitemap td {
+    vertical-align:top;
+    padding: 0;
+}
+
+.footer-sitemap a, .footer-sitemap a:VISITED, .footer-sitemap a:HOVER {
+    color: #999999;
+    height: 17px;
+}
+
+.footer-sitemap th a, .footer-sitemap th a:VISITED, .footer-sitemap th a:HOVER{
+    color: white;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.footer-buttons {
+    float: right;
+    margin-top: 20px;
+    text-align: center;
+    width: 220px;
+}
+
+.action-redeem-offer {
+    margin:20px auto;
+    width:168px;
+    height:25px;
+    background-image:url(../images/buttons/green_168x30.png);
+    padding-top:5px;
+}
+
+.action-redeem-offer:HOVER {
+    background-image:url(../images/buttons/green_168x30_over.png);
+    text-decoration: none;
+}
+
+.follow-vudu-table {
+    margin:auto;
+}
+
+.follow-vudu-table a {
+    margin:auto;
+    width: 21px;
+    height: 21px;
+    background-image:url(../images/sprite/main-sprite-v27.png);
+    text-indent: -9999px;
+}
+
+.follow-facebook-btn {
+    background-position: -164px -112px;
+}
+
+.follow-twitter-btn {
+    background-position: -328px -112px;
+}
+
+.green-btn, .green-btn:visited {
+    color: #EEEEEE !important;
+}
+
+.link-as-btn, .link-as-btn:visited {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: #999999;
+    display: block;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* promotions page */
+.promotions-page {
+    background-color: black;
+    float: left;
+    width: 1000px;
+}
+.promotions-page .headline {
+    margin:20px;;
+}
+.promotions-page .promotion {
+    float: left;
+    height: 280px;
+    margin-left: 30px;
+    width: 165px
+}
+.promotions-page .promotion .title {
+    height: 30px;
+    padding-top: 10px;
+}
+.promotions-page .promotion .note {
+    height: 30px;
+}
+.promotions-page .promotion img{
+    width:142px;
+    border: 1pt solid #888888;
+}
+
+
+/* for supporting the new template */
+
+#topNavAccount {
+    display: none;
+    float:right;
+}
+#topNavSingIn {
+    display: block;
+    float:right;
+    margin-right:15px;
+}
+#topNavSingUp {
+    display: block;
+    float:right;
+}
+.logedIn #topNavAccount {
+    display: block;
+}
+.logedIn #topNavSingIn {
+    display: none;
+    
+}
+.logedIn #topNavSingUp {
+    display: none;
+}
+#topNavSingIn div > a {
+    width: 55px;
+    background-position: -656px -60px;
+}
+#topNavSingUp div > a {
+    width: 60px;
+}
+#topNavSingIn:HOVER div > a {
+    background-position: -656px -92px;
+}
+#topNavAccount table {
+    height: 100%;
+    border-spacing: 0;
+    border-collapse:collapse;
+    border: 0px;
+    margin-left: 18px;
+}
+#topNavAccount table td {
+    vertical-align: top;
+}
+#topNavAccount .hideUserPic {
+    width: 0px;
+}
+#topNavAccount .showUserPic {
+    width: 25px;
+    margin: 12px 5px 0px;
+}
+#topNavAccount #topNavUsername {
+    margin: 17px 0 0 2px;
+    height: 16px;
+    width: auto;
+    max-width: 130px;
+    overflow: hidden;
+    font-family: Arial;
+    font-size: 12px;
+    text-align: right;
+    color: #6e6e6e;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#topNavAccount:HOVER #topNavUsername {
+    color: #FFF;
+}
+#topNavAccount #topNavDropdownArrow {
+    width: 10px;
+    height: 10px;
+    margin: 21px 5px 0;
+    background-image: url(../images/sprite/main-sprite-v27.png);
+    background-repeat: no-repeat;
+    background-position: -984px -95px;
+}
+#topNavAccount:HOVER #topNavDropdownArrow {
+    background-position: -984px -63px;
+}
+
+/* redesign footer */
+#homePage-social {
+    background-color: #9D047C;
+    height: 74px;
+    margin-top:45px;
+    float:left;
+}
+
+#homePageSignUp-bottom{
+    display:none;
+}
+
+#homePage-social{
+    background-color:#9D047C;
+    height:74px;
+    width:100%;
+    
+}
+.social-buttons{
+    width:950px;
+  position: relative;
+}
+.social-buttons .vudu-mobile-app-link {
+  margin: 13px 20px 12px 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.homePage-social-table{
+    position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.homePage-social-table a{
+    text-indent:-9999px;
+}
+
+.homePage-social-table td {
+    color: #FFFFFF;
+    font-size: 24px;
+    padding: 15px;
+}
+.twitter-btn{
+    background-image: url("../images/icon-twitter.png");
+    height:44px;
+    width:44px;
+    
+}
+
+.facebook-btn{
+    background-image: url("../images/icon-fb.png");
+    height:44px;
+    width:44px;
+}
+
+.youtube-btn{
+    background-image: url("../images/icon-youtube.png");
+    height:44px;
+    width:44px;
+}
+
+.copyright {
+    background-color: #2D3235;
+    float: left;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    width: 100%;
+    font-size:14px;
+}
+
+/**** My Offers ****/
+
+#topNavOffers {
+    display: none;
+	float: right;
+}
+.logedIn #topNavOffers {
+    display: block;
+}
+#topNavOffers #offers-icon {
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url("../images/sprite/main-sprite-v27.png");
+  background-position: -486px -357px;
+  position: relative;
+  cursor: pointer;
+}
+#topNavOffers #offers-icon.has-unread-offers {
+  background-image: url("../images/sprite/main-sprite-v27.png");
+  background-position: -815px -358px;
+}
+#topNavOffers #offers-present,
+#topNavOffers.has-offers #offers-absent {
+  display: none;
+}
+#topNavOffers.has-offers #offers-present,
+#topNavOffers #offers-absent {
+  display: block;
+}
+#offers-popup {
+  background-color: #464646;
+  position: absolute;
+  top: 35px;
+  right: 21px;
+  display: none;
+  font-size: 14px;
+  color: #cacaca;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  width: 300px;
+  padding: 10px 0;
+}
+
+#offers-absent {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+#offers-popup .offer.viewed {
+  background-image: none;
+}
+#offers-popup .offer {
+  border-bottom: 1pt solid #EEEEEE;
+  display: none;
+  cursor: pointer;
+  background-image: url("/images/icons/Orange_Dot.png");
+  background-repeat: no-repeat;
+  background-position: 285px 3px;
+  margin: 5px 0;
+  padding: 0 5px;
+}
+
+#offers-popup h1 {
+  font-size: 13.5px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+#offers-popup p {
+  font-size: 11px;
+  text-align: right;
+  margin: 0.5em 10px;
+}
+#topNavOffers .see-all-offers {
+  text-align: center;
+  padding: 10px 0 0;
+}
+#topNavOffers .see-all-offers a {
+  background-image: none;
+  text-indent: 0;
+  color: orange;
+  font-size: 16px;
+  font-weight: bold;
+  height: 20px;
+}
+iframe[name='google_conversion_frame']{
+    display: none;
+}
